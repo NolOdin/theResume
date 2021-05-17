@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import certHtml from '../assets/cert-html.jpg'
-import certJs from '../assets/cert-js.JPG'
+import certJs from '../assets/cert-js.jpg'
 import certCss from '../assets/cert-css.jpg'
 import './about-me.css'
 import htmlIcon from'../assets/html-icon.png'
