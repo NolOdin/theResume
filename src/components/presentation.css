@@ -1,0 +1,86 @@
+/*#presentation  {
+	height: 670px;
+	background-color: ;
+}*/
+
+h1 {
+	
+	/*color: white;*/
+	text-align: center;
+	font-size: 52px;
+	font-family: 'Quantico', sans-serif;
+	/*font-size:6vw;*/
+}
+hr {
+	background-color: black;
+	width: 50%; 
+	margin: 0 28% 0 35%;
+	height: 4px;
+	border-radius: 3px;
+	text-align:right;
+	
+}
+
+#here-you {
+ font-weight: bold;
+ font-size: 40px;
+}
+.pres-text {
+	padding-top: 40px;
+	font-size: 30px;
+	font-family:'Cairo', sans-serif;
+	text-align: center;
+	/*font-size:4vw;*/
+}
+
+.tech-icons {
+	padding-top: 100px;
+	padding-bottom: 150px;
+	text-align: center;
+	
+}
+#tech-icons-p {
+	padding-bottom: 30px;
+}
+
+
+#linux-icon  {
+	width: 140px;
+	height: 100px;
+	padding-left: 30px;
+}
+
+#react-icon  {
+	width: 140px;
+	height: 100px;
+	padding-left: 30px;
+}
+#redux-icon  {
+	width: 140px;
+	height: 100px;
+	padding-left: 30px;
+}
+#node-js  {
+	width: 200px;
+	height: 100px;
+	padding-left: 30px;
+}
+#vuejs-icon  {
+	width: 140px;
+	height: 100px;
+	padding-left: 30px;
+}
+#bootstrap-icon {
+	width: 140px;
+	height: 100px;
+	padding-left: 30px;
+}
+#git-icon {
+	width: 140px;
+	height: 100px;
+	padding-left: 30px;
+}
+
+
+
+
