@@ -1,24 +1,30 @@
-import {React, Component} from 'react'
+import {React, useState, useEffect} from 'react'
 import Navbar from './components/navbar'
+import Spinner from './components/spinner'
 import './App.css';
 
-export default class App extends Component {
-    render(){
-        return (
-    <div className="App">
-    
-       <Navbar />
-     
+function App () {
+			const [loading, setLoading] = useState(false);
 
-    
+					useEffect(() => {
+						setLoading(true)
+						setTimeout(() => {
+							setLoading(false)
+						}, 7000)
+					}, []) 
+			  return (
+			    <div className="App">
+			    {
+			   		loading ? <Spinner /> : <Navbar />
+			    }
+			  
+			    </div>
+			 );   
+			 
   
-    </div>
- );   
-    }
-    
-
-
-
 }
+export default  App
+
+
 
 
